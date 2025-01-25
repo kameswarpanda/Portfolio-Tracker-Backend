@@ -14,9 +14,9 @@ public class SwaggerConfig {
 	public OpenAPI customOpenAPI() {
 		return new OpenAPI()
 				.info(new Info()
-						.title("Job Posting API")
+						.title("Investment Portfolio tracker")
 						.version("1.0")
-						.description("This API provides CRUD operations for managing job postings, including creating, reading, updating, deleting, and searching job postings on a hiring platform.")
+						.description("This API provides CRUD operations for managing Stocks, including creating, reading, updating, deleting, and User register/login API endpoints.")
 						.contact(new Contact()
 								.name("Kameswar Panda") 
 								.email("kameswarpanda11@gmail.com")) 
